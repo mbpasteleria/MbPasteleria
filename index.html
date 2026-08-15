@@ -342,7 +342,7 @@ body {
   }
   .hero-1-img {
     position: relative;
-    background-image: url('img/torta-frutilla.jpg');
+    background-image: url('IMG/torta-frutilla.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -413,7 +413,7 @@ body {
   .card-flotante-img {
     width: 56px; height: 56px;
     border-radius: 12px;
-    background-image: url('img/torta-frutilla.jpg');
+    background-image: url('IMG/torta-frutilla.jpg');
     background-size: cover;
     background-position: center;
     flex-shrink: 0;
@@ -457,7 +457,7 @@ body {
     height: 100vh;
     min-height: 600px;
     position: relative;
-    background-image: url('img/torta-frutilla.jpg');
+    background-image: url('IMG/torta-frutilla.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1904,7 +1904,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: 0;
-      background-image: url('img/logo_mobile.png');
+      background-image: url('IMG/logo_mobile.png');
     }
    .hero-1-img::after {
       content: '';
@@ -2251,7 +2251,7 @@ body {
 <nav class="nav">
   <div class="nav-inner">
     <div class="logo-group">
-      <img  class="logo-circle" src="img/logo.png" alt="">
+      <img  class="logo-circle" src="IMG/logo.png" alt="">
       <div class="logo-text">
         <span class="nombre">MB</span>
         <span class="subtitulo">Pastelería</span>
@@ -2288,7 +2288,7 @@ body {
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-header">
     <div class="logo-group">
-      <img  class="logo-circle" src="img/logo.png" alt="">
+      <img  class="logo-circle" src="IMG/logo.png" alt="">
       <div class="logo-text">
         <span class="nombre">MB</span>
         <span class="subtitulo">Pastelería</span>
@@ -2579,7 +2579,7 @@ body {
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="logo-group">
-       <img class="logo-circle" src="img/logo.png" alt="">
+       <img class="logo-circle" src="IMG/logo.png" alt="">
         <div class="logo-text">
           <span class="nombre">MB</span>
           <span class="subtitulo">Pastelería</span>
@@ -2688,51 +2688,51 @@ const DISCOUNT_PERCENT = 20;
 // ============ DATA DE PRODUCTOS ============
 const productos = {
   tortas: [
-    { id: 'lemon-pie', nombre: 'Lemon Pie', detalle: 'Limón clásico con merengue italiano', img: 'img/lemon_pie.jpg', tamaños: [{label:'Grande', precio:42000},{label:'Chica', precio:38000}] },
-    { id: 'frutales', nombre: 'Frutales', detalle: 'Frutillas frescas sobre crema', img: 'img/torta-frutilla.jpg', destacado: '★ Destacada', tamaños: [{label:'Grande', precio:46000},{label:'Chica', precio:40000}] },
-    { id: 'havanett', nombre: 'Havanett', detalle: 'Dulce de leche y chocolate', img: 'img/havenet.jpeg', tamaños: [{label:'Grande', precio:45000},{label:'Chica', precio:39000}] },
-    { id: 'sablee', nombre: 'Sablée de almendras', detalle: 'Masa sablée con crema de almendras', img: 'img/sable_almendras.jpg', imgPos: 'center 75%', tamaños: [{label:'Grande', precio:48000},{label:'Chica', precio:42000}] },
-    { id: 'chaja', nombre: 'Chajá', detalle: 'Bizcochuelo, durazno y merengue', img: 'img/chaja.jpeg',tamaños: [{label:'Grande', precio:52000},{label:'Chica', precio:48000}] },
-    { id: 'selva-negra', nombre: 'Selva Negra', detalle: 'Chocolate, cerezas y crema',img: 'img/selva_negra.jpeg', tamaños: [{label:'Grande', precio:50000},{label:'Chica', precio:46000}] },
-    { id: 'clasica', nombre: 'Torta Clásica', detalle: 'La de toda la vida, decorada a mano', img: 'img/torta-clasica.jpg', tamaños: [{label:'Grande', precio:52000},{label:'Chica', precio:48000}] },
-    { id: 'red-velvet', nombre: 'Red Velvet', detalle: 'Bizcocho rojo con queso crema', img: 'img/red-velvet.jpg', imgPos: 'center 70%', tamaños: [{label:'Grande', precio:50000},{label:'Chica', precio:42000}] },
-    { id: 'tiramisu', nombre: 'Tiramisú', detalle: 'Café, mascarpone y cacao',img: 'img/tiramisu.jpeg', tamaños: [{label:'Grande', precio:55000},{label:'Chica', precio:44000}] },
-    { id: 'oreo', nombre: 'Torta Oreo', detalle: 'La favorita de los chicos', img: 'img/torta_oreo.jpg', precio: 58000 },
-    { id: 'chocotorta', nombre: 'Chocotorta', detalle: 'Chocolinas, dulce de leche y queso', img: 'img/chocotorta.jpeg', imgPos: 'center 80%', precio: 54000 },
-    { id: 'chocooreo', nombre: 'Chocooreo', detalle: 'Lo mejor de dos mundos en capas', img: 'img/choco_oreo.jpeg', imgPos: 'center 70%', precio: 58000 },
-    { id: 'pavlova', nombre: 'Pavlova', detalle: 'Base de merengue ddl crema y frutillas/ frutos rojos', img: 'img/pavlovav.jpeg', precio: 20000 },
-    { id: 'cheesecake', nombre: 'Cheesecake', detalle: 'Frutos rojos ', img: 'img/cheesecake-frutos-rojos.jpg', destacado: 'Recomendada', precio: 48000 },
-    { id: 'cheesecake', nombre: 'Cheesecake', detalle: 'Maracuyá', img: 'img/cheesecake-maracuya.jpg', destacado: 'Recomendada', precio: 48000 },
-    { id: 'rogel', nombre: 'Rogel', detalle: 'Masas crocantes, ddl y merengue',img: 'img/rogel.jpeg', precio: 48000 }
+    { id: 'lemon-pie', nombre: 'Lemon Pie', detalle: 'Limón clásico con merengue italiano', img: 'IMG/lemon_pie.jpg', tamaños: [{label:'Grande', precio:42000},{label:'Chica', precio:38000}] },
+    { id: 'frutales', nombre: 'Frutales', detalle: 'Frutillas frescas sobre crema', img: 'IMG/torta-frutilla.jpg', destacado: '★ Destacada', tamaños: [{label:'Grande', precio:46000},{label:'Chica', precio:40000}] },
+    { id: 'havanett', nombre: 'Havanett', detalle: 'Dulce de leche y chocolate', img: 'IMG/havenet.jpeg', tamaños: [{label:'Grande', precio:45000},{label:'Chica', precio:39000}] },
+    { id: 'sablee', nombre: 'Sablée de almendras', detalle: 'Masa sablée con crema de almendras', img: 'IMG/sable_almendras.jpg', imgPos: 'center 75%', tamaños: [{label:'Grande', precio:48000},{label:'Chica', precio:42000}] },
+    { id: 'chaja', nombre: 'Chajá', detalle: 'Bizcochuelo, durazno y merengue', img: 'IMG/chaja.jpeg',tamaños: [{label:'Grande', precio:52000},{label:'Chica', precio:48000}] },
+    { id: 'selva-negra', nombre: 'Selva Negra', detalle: 'Chocolate, cerezas y crema',img: 'IMG/selva_negra.jpeg', tamaños: [{label:'Grande', precio:50000},{label:'Chica', precio:46000}] },
+    { id: 'clasica', nombre: 'Torta Clásica', detalle: 'La de toda la vida, decorada a mano', img: 'IMG/torta-clasica.jpg', tamaños: [{label:'Grande', precio:52000},{label:'Chica', precio:48000}] },
+    { id: 'red-velvet', nombre: 'Red Velvet', detalle: 'Bizcocho rojo con queso crema', img: 'IMG/red-velvet.jpg', imgPos: 'center 70%', tamaños: [{label:'Grande', precio:50000},{label:'Chica', precio:42000}] },
+    { id: 'tiramisu', nombre: 'Tiramisú', detalle: 'Café, mascarpone y cacao',img: 'IMG/tiramisu.jpeg', tamaños: [{label:'Grande', precio:55000},{label:'Chica', precio:44000}] },
+    { id: 'oreo', nombre: 'Torta Oreo', detalle: 'La favorita de los chicos', img: 'IMG/torta_oreo.jpg', precio: 58000 },
+    { id: 'chocotorta', nombre: 'Chocotorta', detalle: 'Chocolinas, dulce de leche y queso', img: 'IMG/chocotorta.jpeg', imgPos: 'center 80%', precio: 54000 },
+    { id: 'chocooreo', nombre: 'Chocooreo', detalle: 'Lo mejor de dos mundos en capas', img: 'IMG/choco_oreo.jpeg', imgPos: 'center 70%', precio: 58000 },
+    { id: 'pavlova', nombre: 'Pavlova', detalle: 'Base de merengue ddl crema y frutillas/ frutos rojos', img: 'IMG/pavlovav.jpeg', precio: 20000 },
+    { id: 'cheesecake', nombre: 'Cheesecake', detalle: 'Frutos rojos ', img: 'IMG/cheesecake-frutos-rojos.jpg', destacado: 'Recomendada', precio: 48000 },
+    { id: 'cheesecake', nombre: 'Cheesecake', detalle: 'Maracuyá', img: 'IMG/cheesecake-maracuya.jpg', destacado: 'Recomendada', precio: 48000 },
+    { id: 'rogel', nombre: 'Rogel', detalle: 'Masas crocantes, ddl y merengue',img: 'IMG/rogel.jpeg', precio: 48000 }
   ],
   marquises: [
-    { id: 'marq-chocolate', nombre: 'Chocolate', detalle: 'DDL y merengue',img: 'img/chocolate_dll.jpeg', precio: 44000 },
-    { id: 'marq-oreo', nombre: 'Oreo', detalle: 'DDL, crema de avellanas y chantillí', img: 'img/brownie-oreo.jpg', destacado: '★ Favorita', precio: 48000 },
-    { id: 'brownie-dll', nombre: 'DDL', detalle: 'DDL, mousse de DDL y chantillí', img: 'img/br_dll.jpeg',precio: 48000 },
-    { id: 'brownie-fritillary', nombre: 'fritillary', detalle: 'Fritillary, mousse de DDL y chantillí', img: 'img/br_ fritillary.jpeg', imgPos: 'center 75%', precio: 44000 },
+    { id: 'marq-chocolate', nombre: 'Chocolate', detalle: 'DDL y merengue',img: 'IMG/chocolate_dll.jpeg', precio: 44000 },
+    { id: 'marq-oreo', nombre: 'Oreo', detalle: 'DDL, crema de avellanas y chantillí', img: 'IMG/brownie-oreo.jpg', destacado: '★ Favorita', precio: 48000 },
+    { id: 'brownie-dll', nombre: 'DDL', detalle: 'DDL, mousse de DDL y chantillí', img: 'IMG/br_dll.jpeg',precio: 48000 },
+    { id: 'brownie-fritillary', nombre: 'fritillary', detalle: 'Fritillary, mousse de DDL y chantillí', img: 'IMG/br_ fritillary.jpeg', imgPos: 'center 75%', precio: 44000 },
    
     
   ],
   tartas: [
-    { id: 'pastaflora', nombre: 'Pastaflora', detalle: 'Tradicional con dulce de membrillo',  img: 'img/pastafrola.jpeg',tamaños: [{label:'Grande', precio:28000},{label:'Chica', precio:22000}] },
-    { id: 'tarta-ricota', nombre: 'Torta de ricota', detalle: 'Cremosa, con cobertura de frutas', img: 'img/torta_ricotta.jpeg', precio: 35000 },
-    { id: 'tarta-coco', nombre: 'Tarta de coco', detalle: 'Coco rallado y dulce de leche', img: 'img/tarta_coco.png', tamaños: [{label:'Grande', precio:35000},{label:'Chica', precio:28000}] }
+    { id: 'pastaflora', nombre: 'Pastaflora', detalle: 'Tradicional con dulce de membrillo',  img: 'IMG/pastafrola.jpeg',tamaños: [{label:'Grande', precio:28000},{label:'Chica', precio:22000}] },
+    { id: 'tarta-ricota', nombre: 'Torta de ricota', detalle: 'Cremosa, con cobertura de frutas', img: 'IMG/torta_ricotta.jpeg', precio: 35000 },
+    { id: 'tarta-coco', nombre: 'Tarta de coco', detalle: 'Coco rallado y dulce de leche', img: 'IMG/tarta_coco.png', tamaños: [{label:'Grande', precio:35000},{label:'Chica', precio:28000}] }
   ],
   budines: [
-    { id: 'bud-naranja', nombre: 'Naranja', detalle: 'Cítrico esponjoso', img: 'img/budin_naranja.jpeg',precio: 12000 },
-    { id: 'bud-limon', nombre: 'Limón', detalle: 'Cítrico esponjoso',img: 'img/budin_limon.jpeg', precio: 12000 },
-    { id: 'bud-amapolas', nombre: 'Limón y amapolas', detalle: 'Clásico con un toque crocante',img: 'img/budin_limon.jpeg', precio: 12000 },
-    { id: 'bud-marmolado', nombre: 'Marmolado', detalle: 'Vainilla y chocolate', img: 'img/budin_marmolado.jpeg',precio: 12000 },
-    { id: 'bud-chocolate', nombre: 'Chocolate', detalle: 'Intenso y húmedo', img: 'img/budin_chocolate.jpeg', precio: 12000 },
-    { id: 'bud-ingles', nombre: 'Budín inglés', detalle: 'Con frutas y nueces',img: 'img/budin_ingles.jpeg',  precio: 18000 },
-    { id: 'bud-galesa', nombre: 'Budin galesa', detalle: 'Receta patagónica con frutas', img: 'img/galesa.jpeg',precio: 20000 },
-    { id: 'torta-galesa', nombre: 'Torta galesa', detalle: 'Receta patagónica con frutas', img: 'img/torta_galesa.jpeg', imgPos: 'center 40%', precio: 20000 },
+    { id: 'bud-naranja', nombre: 'Naranja', detalle: 'Cítrico esponjoso', img: 'IMG/budin_naranja.jpeg',precio: 12000 },
+    { id: 'bud-limon', nombre: 'Limón', detalle: 'Cítrico esponjoso',img: 'IMG/budin_limon.jpeg', precio: 12000 },
+    { id: 'bud-amapolas', nombre: 'Limón y amapolas', detalle: 'Clásico con un toque crocante',img: 'IMG/budin_limon.jpeg', precio: 12000 },
+    { id: 'bud-marmolado', nombre: 'Marmolado', detalle: 'Vainilla y chocolate', img: 'IMG/budin_marmolado.jpeg',precio: 12000 },
+    { id: 'bud-chocolate', nombre: 'Chocolate', detalle: 'Intenso y húmedo', img: 'IMG/budin_chocolate.jpeg', precio: 12000 },
+    { id: 'bud-ingles', nombre: 'Budín inglés', detalle: 'Con frutas y nueces',img: 'IMG/budin_ingles.jpeg',  precio: 18000 },
+    { id: 'bud-galesa', nombre: 'Budin galesa', detalle: 'Receta patagónica con frutas', img: 'IMG/galesa.jpeg',precio: 20000 },
+    { id: 'torta-galesa', nombre: 'Torta galesa', detalle: 'Receta patagónica con frutas', img: 'IMG/torta_galesa.jpeg', imgPos: 'center 40%', precio: 20000 },
 
   ],
   alfajores: [
-    { id: 'alf-chocolate', nombre: 'Box alfajores de chocolate', detalle: 'x12 unidades, baño de chocolate', img: 'img/box_alfajores.jpeg', imgPos: 'center bottom', precio: 22000 },
-    { id: 'alf-maicena', nombre: 'Alfajores de maicena', detalle: 'x12 unidades, los de siempre',img: 'img/maicena.png', precio: 18000 },
-    { id: 'shots', nombre: 'Shots', detalle: 'x12 unidades, mini postres en vaso',img: 'img/shots.jpeg', precio: 22000 }
+    { id: 'alf-chocolate', nombre: 'Box alfajores de chocolate', detalle: 'x12 unidades, baño de chocolate', img: 'IMG/box_alfajores.jpeg', imgPos: 'center bottom', precio: 22000 },
+    { id: 'alf-maicena', nombre: 'Alfajores de maicena', detalle: 'x12 unidades, los de siempre',img: 'IMG/maicena.png', precio: 18000 },
+    { id: 'shots', nombre: 'Shots', detalle: 'x12 unidades, mini postres en vaso',img: 'IMG/shots.jpeg', precio: 22000 }
   ]
 };
 
